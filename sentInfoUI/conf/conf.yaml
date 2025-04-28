@@ -1,0 +1,126 @@
+MQfileSuffix: MQ_Stat_Summary.txt
+PD: true
+PDAll:
+- Percent25 of RT Length (s)
+- Experiment
+- Percent75 of PPM
+- Percent25 of PPM
+- Percent75 of RT Length (s)
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- Number of PSM
+- Number of MSMS
+- No_Missed_Cleavage (%)
+- Median of RT Length (s)
+- Median of PPM
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+PDFilter:
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- Number of PSM
+- Number of MSMS
+- No_Missed_Cleavage (%)
+- Median of RT Length (s)
+- Median of PPM
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+PDfileSuffix: PD_Stat_Summary.txt
+SPfileSuffix: SP_Stat_Summary.txt
+admin:
+- 文件传输助手
+database: record.db
+databasePath: data\database
+endTime: '22:30:00'
+enginnersEmails:
+  王五: 654321@qq.com
+maxquant: true
+maxquantAll:
+- Peptide sequences identified
+- Retention_length_Mean (s)
+- MS/MS identified
+- Experiment
+- Percent75 of PPM
+- Percent25 of PPM
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- MS
+- MS/MS
+- Median of PPM
+- Retention_length_Median (s)
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+- MS/MS identified [%]
+maxquantFilter:
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- MS
+- MS/MS
+- Median of PPM
+- Retention_length_Median (s)
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+- MS/MS identified [%]
+msCharge:
+  480-1:
+  - 张三
+  - 李四
+  TOF1:
+  - 王五: QC|ionoptick
+  - 刘二
+msPatterns:
+  480-1: 480-1|480_1|MS1_480|4801
+  TOF1: TOF1|TOF-1|TOF_1
+port: 11111
+sendByemail: false
+sendBywechat: true
+sender_email: 123456789@qq.com
+sender_password: XXXXX
+smtserver: smtp.qq.com
+smtserverPort: 587
+specDir: D:\DataReceived
+spectronaut: true
+spectronautAll:
+- Number of MS1 Spectra
+- Cycle Time (MS1)
+- Number of MS2 Spectra
+- Cycle Time (MS2)
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- Number of Precursors
+- Peak Capacity
+- Data Points per Peak (MS1)
+- Data Points per Peak (MS2)
+- Average_PPM
+- Median_PPM
+- Retention_length_Median (FWHM) (s)
+- Median of RT Length (s)
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+spectronautFilter:
+- Raw file
+- Number of ProteinGroups
+- Number of Peptides
+- Number of Precursors
+- Peak Capacity
+- Data Points per Peak (MS1)
+- Data Points per Peak (MS2)
+- Average_PPM
+- Median_PPM
+- Retention_length_Median (FWHM) (s)
+- Median of RT Length (s)
+- Protein Quantity (Sum)
+- Protein Quantity (Median)
+- Protein Quantity (Mean)
+startTime: 08:30:00
+warnFileSuffix: warn.txt
