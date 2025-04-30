@@ -1,0 +1,7 @@
+Exe_Path:/usr/diann/1.8.1/diann-1.8.1
+Port:188
+Received_Dir:/public/home/huiyan/Automation/TestData/Data
+Result_Dir:/public/home/huiyan/Automation/TestData/Result
+Sample_Num:2
+Fasta:/Fasta/211203-uniprot-human-filtered-reviewed-20375-ID-iRT.fasta
+ThermoRawFileParser_Path:/Software/ThermoRawFileParser1.4.2/ThermoRawFileParser.exe
